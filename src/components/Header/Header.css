@@ -1,0 +1,11 @@
+.nav-option{
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    transition: 0.3s;
+    font-size: 18px;
+}
+.nav-option:hover{
+    border-bottom: 2px solid red;
+}
+.nav-option:focus{
+    border-bottom: 2px solid red;
+}
