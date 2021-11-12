@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Canon EOS 200D mark II",
+        "category": "DSLR Camera",
+        "description": "EOS 200D II is Canon’s lightest DSLR with a Vari-angle Touch Screen LCD. Weighing only a little heavier than a bottle of water*, the camera slides right into your bag conveniently for that everyday photography. Packed into its petite body is Canon’s 24.1-megapixels APS-C CMOS sensor, DIGIC 8 processor and a bunch of features that would make snapping your everyday life seamlessly easier.",
+        "img": "https://i.ibb.co/4RRrPjX/Canon-EOS-200-D-mark-II-DSLR-Camera-Body.jpg",
+        "price": 250
+    },
+    {
+        "name": "Canon EOS 5D Mark IV",
+        "category": "DSLR Camera",
+        "description": "Continuing on in their legacy of powerful workhorse cameras, Canon has released the 5D Mark IV DSLR with 24-105mm f/4L II Lens which is an outstanding still photography option and an able 4K-capable video machine. This multimedia maven offers a newly developed 30.4MP full-frame CMOS sensor paired with the DIGIC 6+ image processor in order to balance fine detail and resolution with low-light performance and sensitivity.",
+        "img": "https://i.ibb.co/TL0z3qX/Canon-EOS-5-D-Mark-IV-DSLR-Camera-with-24-105mm-Lens.jpg",
+        "price": 225
+    },
+    {
+        "name": "Nikon D5500 DSLR 24.2 MP",
+        "category": "DSLR Camera",
+        "description": "Nikon D5500, Effective pixels - 24.2 Mega Pixel, Lens Mount - AF-S 18-55mm VR, Sensor Type - CMOS, Display - 3.2 inch Touch LCD Display, View Finder Type - Pentamirror, Shutter Speed - 1/4000 to 30 sec., Face Detection - Yes, Red-Eye Reduction - Yes, Image - 6000 x 4000, Video - 1920 x 1080, Memory Type - SD, SDHC, SDXC, USB - Hi-Speed USB, Battery - Lithium-ion Battery EN-EL14a, Body Dimensions - 124 x 97 x 70 mm, Weight - 470gm.",
+        "img": "https://i.ibb.co/BqN51Qz/nikon-d5500-500x500.jpg",
+        "price": 286
+    },
+    {
+        "name": "Sony Alpha A6400 (with 16-50mm Lens)",
+        "category": "Mirrorless Camera",
+        "description": "Sony Alpha A6400 Mirrorless Digital Camera with 16-50mm Lens is comes with 24.2MP APS-C Exmor CMOS Sensor, BIONZ X Image Processor, Real-Time Eye AF & Real-Time Tracking XGA Tru-Finder 2.36m-Dot OLED EVF. This camera is stable, fast, versatile, and compact, the Alpha a6400 from Sony is an APS-C-format mirrorless camera that adopts many of the features normally reserved for their full-frame lineup.",
+        "img": "https://i.ibb.co/Xj6jQWy/alpha-a6400-1-500x500.jpg",
+        "price": 420
+    },
+    {
+        "name": "Canon EF 85mm f/1.8 USM Prime Lens",
+        "category": "Camera lens",
+        "description": "Canon EF 85mm f/1.8 USM Prime Lens is a short-telephoto prime characterized by its slightly compressed perspective for achieving flattering results. This lens is stands with 85mm Focal Length, f/1.8 Maximum Aperture, f/22 Minimum Aperture. It is designed to produce beautiful background blur; weighs 15 ounces; 85cm closest focusing distance. This exclusive lens also built in 28° 30' viewing angle, 0.13x Maximum Magnification, 2.79' / 85 cm Minimum Focus Distance, 9 Elements in 7 Groups lens construction with 58 mm (Front) size filter",
+        "img": "https://i.ibb.co/WHJ3Jpv/ef-85mm-1-500x500.jpg",
+        "price": 120
+    },
+    {
+        "name": "Digipod TR472 Compact Aluminum Tripod",
+        "category": "Camera Stand",
+        "description": "Digipod Tripod TR-472 Camera Stand is used for multipurpose like a professional photographer, generalist, cameraman, and tourists. Tripod can be used for the project and shoot videos up to 67 inch or 5.5 Feet. Mount flips up automatically, and it has design that prevent the camera from falling down sharply when the knob is relaxed. Lifting lever lifting the joystick, the center post can be easily risen or fell in. With the rotary button design, it pushes center column to lock and improves stability of tripod.",
+        "img": "https://i.ibb.co/9y54GFk/Digipod-TR472-Compact-Lightweight-Aluminum-Flexible-Camera-Tripod.jpg",
+        "price": 20
+    },
+    {
+        "name": "Godox TL-5 Softbox & Light Stand",
+        "category": "Camera Lighting",
+        "description": "Add tricolor bulbs to provide ideal continuous light for studio photography or videography. The included softbox gives you soft and natural lighting. Suitable for product and children shooting. The provide metal adapter quickly installs foursquare, rectangle, or octagon softbox in any size from any brand. Therefore, you can immediately attach your own softbox on the light.",
+        "img": "https://i.ibb.co/kBYQhR7/Godox-TL-5-Multi-Holder-with-60-60cm-Softbox-Light-Stand.jpg",
+        "price": 30
+    },
+    {
+        "name": "Canon EF 100mm f/2.8L IS USM Prime Lens",
+        "category": "Camera lens",
+        "description": "Canon EF 100mm f/2.8L IS USM Prime Lens is a versatile L-series short telephoto prime that is also well-suited for portraiture and other mid-range subjects. This Lens is built in 100mm Focal Length, f/2.8 Maximum Aperture with 15 elements in 12 groups Lens Construction and 23.4° Diagonal Angle of View. In Market, this is the first lens to incorporate Canon's new Hybrid Image Stabilization Technology.",
+        "img": "https://i.ibb.co/2jnsCLr/ef-100mm-1-500x500.jpg",
+        "price": 110
+    },
+    {
+        "name": "Sony Alpha a7R III (with 16-35mm Zoom Lens)",
+        "category": "Mirrorless Camera",
+        "description": "The Sony Alpha a7R III Mirrorless Digital Camera (Body Only) is a sophisticated and high-performing camera to capture the perfect image or video at any time. The Sony Alpha a7R III 42MP Camera has an Exmor R BSI CMOS sensor integrated into it making it an impressive piece of technology. the a7R III affords an impressive 10 fps continuous shooting rate along with improved autofocus performance for faster, more reliable subject tracking along with wide frame coverage.",
+        "img": "https://i.ibb.co/VTpFw8L/alpha-a7r-iii-42mp-with-16-35mm-2-500x500.jpg",
+        "price": 725
+    },
+    {
+        "name": "Canon EOS 3000D DSLR Camera (with 18-55mm Lens)",
+        "category": "Camera lens",
+        "description": "Description EOS 3000D comes with 230,000 dot 3.0 inch LCD, 3 frames per second shooting to catch action sequences. Includes 3x 18-55mm Zoom-NIKKOR VR Image Stabilization Lens. Ultrasonic process and exclusive Airflow Control combats the accumulation of dust in front of the image sensor, safeguarding image quality shot after shot. Active D-Lighting : Restores picture-enhancing detail in shadows and highlights. Split-second Shutter Response Eliminates the frustration of shutter delay, capturing moments that other cameras miss.",
+        "img": "https://i.ibb.co/xmPzP4V/3000d-500x500.jpg",
+        "price": 422
+    }
+]
