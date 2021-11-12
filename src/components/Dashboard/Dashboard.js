@@ -2,8 +2,11 @@ import React from 'react';
 
 const Dashboard = () => {
     return (
-        <div>
-            <h1>This is dashboard</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3">col-8</div>
+                <div class="col-9">col-4</div>
+            </div>
         </div>
     );
 };

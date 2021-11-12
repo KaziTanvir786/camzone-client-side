@@ -30,7 +30,12 @@ const Header = () => {
                         {
                             user.email ?
                                 <div className="d-flex justify-content-center align-items-center">
-                                    <Nav.Link className="nav-option" as={Link} to="/dashboard">{user?.displayName || user?.email}</Nav.Link>
+                                    <Nav.Link className="nav-option" as={Link} to="/dashboard">
+                                        Dashboard
+                                    </Nav.Link>
+                                    <span style={{ fontSize: "18px", color: "#e7eced", marginLeft: "10px", marginRight: "10px" }}>
+                                        {user?.displayName}
+                                    </span>
                                     <img src={user.photoURL ? user.photoURL : "https://cdn-icons-png.flaticon.com/512/149/149071.png"} style={{ width: "50px", height: "50px", borderRadius: "50%" }} alt="" />
                                 </div>
                                 :
