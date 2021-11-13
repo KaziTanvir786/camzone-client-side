@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import { Alert, Spinner } from 'react-bootstrap';
 import { Link, useHistory } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
@@ -14,15 +15,33 @@ const Register = () => {
         const value = e.target.value;
         const newRegisterData = { ...registerData };
         newRegisterData[field] = value;
-        console.log(newRegisterData);
         setRegisterData(newRegisterData);
     }
+
+    const data = {
+        displayName: `${registerData.name}`,
+        email: `${registerData.email}`,
+        role: "general-user"
+    }
+
+    const addToDatabase = data => {
+        axios.post('https://lit-beach-01803.herokuapp.com/users', data)
+            .then(res => {
+            })
+    };
 
     const handleRegisterSubmit = e => {
         if (registerData.password !== registerData.password2) {
             alert('Password did not match! Try again.')
         }
-        registerUser(registerData.email, registerData.password, registerData.name, history);
+        else {
+            registerUser(registerData.email, registerData.password, registerData.name, history);
+
+            if (!authError) {
+                addToDatabase(data);
+            }
+            e.preventDefault();
+        }
         e.preventDefault();
     }
     return (

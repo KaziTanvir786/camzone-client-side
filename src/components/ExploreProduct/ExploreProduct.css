@@ -21,11 +21,11 @@
     padding: 10px 20px;
     margin: 10px 0px;
 }
-.card{
+.product-card{
     border-radius: 20px;
     transition: 0.3s;
 }
-.card:hover{
-    transform: scale(1.02);
+.product-card:hover{
+    transform: scale(1.0001);
     box-shadow: 5px 5px 50px grey;
 }

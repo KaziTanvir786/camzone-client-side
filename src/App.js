@@ -3,7 +3,6 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
 import Explore from './components/Explore/Explore';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
@@ -11,6 +10,7 @@ import AuthProvider from './contexts/AuthProvider/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import ScrollToTop from './hooks/ScrollToTop';
 import Dashboard from './components/Dashboard/Dashboard';
+import PlaceOrder from './components/PlaceOrder/PlaceOrder';
 
 function App() {
   return (
@@ -26,8 +26,11 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <PrivateRoute path="/explore">
+            <Route path="/explore">
               <Explore></Explore>
+            </Route>
+            <PrivateRoute path="/order/:productId">
+              <PlaceOrder></PlaceOrder>
             </PrivateRoute>
             <PrivateRoute path="/dashboard">
               <Dashboard></Dashboard>
@@ -42,7 +45,6 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
-          <Footer></Footer>
         </BrowserRouter>
       </AuthProvider>
     </div>

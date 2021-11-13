@@ -1,0 +1,47 @@
+.order{
+    width: 60%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 40px gainsboro;
+}
+
+.order a{
+    text-decoration: none;
+    color: white;
+}
+
+.order img{
+    border-radius: 50%;
+}
+.order img{
+    width: 50%;
+}
+
+/* responsive */
+@media only screen and (max-width: 688px){
+    .order{
+        width: 95%;
+        border-radius: 10px;
+        box-shadow: 2px 2px 40px gainsboro;
+        transition: 0.3s;
+    }
+    
+    .order img{
+        border-radius: 50%;
+    }
+    .order:hover{
+        box-shadow: 2px 2px 40px grey;
+        transform: scale(1.03);
+    }
+    .order img{
+        width: 100%;
+    }
+    
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .heading{
+        width: 80%;
+        font-size: 26px;
+    }
+}

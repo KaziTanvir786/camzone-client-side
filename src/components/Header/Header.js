@@ -30,12 +30,12 @@ const Header = () => {
                         {
                             user.email ?
                                 <div className="d-flex justify-content-center align-items-center">
-                                    <Nav.Link className="nav-option" as={Link} to="/dashboard">
+                                    <Nav.Link className="nav-option" as={Link} to="/dashboard/dashboard-home">
                                         Dashboard
                                     </Nav.Link>
-                                    <span style={{ fontSize: "18px", color: "#e7eced", marginLeft: "10px", marginRight: "10px" }}>
-                                        {user?.displayName}
-                                    </span>
+                                    <NavDropdown style={{ fontSize: "18px", color: "#b5b5b5" }} title={user?.displayName} id="collasible-nav-dropdown">
+                                        <NavDropdown.Item style={{ fontSize: "18px" }} onClick={logOut}>Logout</NavDropdown.Item>
+                                    </NavDropdown>
                                     <img src={user.photoURL ? user.photoURL : "https://cdn-icons-png.flaticon.com/512/149/149071.png"} style={{ width: "50px", height: "50px", borderRadius: "50%" }} alt="" />
                                 </div>
                                 :

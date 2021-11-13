@@ -1,0 +1,10 @@
+.make-admin-button{
+    border: 1px solid red;
+    color: red;
+    background-color: rgba(255, 0, 0, 0);
+}
+.make-admin-button:hover{
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
