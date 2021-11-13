@@ -61,7 +61,7 @@ const Register = () => {
             {
                 !isLoading &&
                 <form onSubmit={handleRegisterSubmit} className="register-form p-4">
-                    <h2 className="my-4 text-success">Create an account</h2>
+                    <h1 className="section-title w-50 mx-auto py-3 mb-4">Register</h1>
                     <div>
                         <div className="row mb-3">
                             <div className="col-sm-12">
@@ -114,21 +114,21 @@ const Register = () => {
                         <div className="row mb-3">
                             <div className="col-sm-12">
                                 <div className="form-check">
-                                    <div className="me-3">
+                                    <div className="m-3">
                                         <Link to="/login">
                                             Already a user?
                                         </Link>
                                     </div>
                                     <div>
                                         {
-                                            <h4 className="text-danger">"Error"</h4>
+                                            <h4 className="text-danger">{authError.message}</h4>
                                         }
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <button type="submit" className="btn btn-success">Register</button> <br /> or, <br />
-                        <button className="btn btn-primary"><span className="me-2"><i className="fab fa-google"></i></span>Google Sign In</button>
+                        <button type="submit" className="login-button">Register</button> <br />
+                        <button className="google-button"><span className="me-2"><i className="fab fa-google"></i></span>Google Sign In</button>
                     </div>
                 </form>
             }

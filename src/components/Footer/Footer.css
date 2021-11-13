@@ -23,23 +23,15 @@ i{
     width: 50%;
 }
 
-.footer a{
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-.footer a:hover{
-    color: #0bcfce;
-}
-#left-part{
-    border-right: 2px solid whitesmoke;
-}
-#middle-part{
-    border-right: 2px solid whitesmoke;
-}
-
 .footer-button{
-    background-color: #0bcfce;
+    color: white;
+    background-color: black;
+    border: 1px solid red;
+}
+.footer-button:hover{
+    color: white;
+    background-color: red;
+    border: 1px solid red;
 }
 
 /* responsive */

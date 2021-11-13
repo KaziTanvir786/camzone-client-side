@@ -74,16 +74,18 @@ const PlaceOrder = () => {
 
     if (products.length !== 0) {
         return (
-            <div className="order mx-auto">
-                <div>
-                    <img src={img} alt="" />
-                    <h3 className="p-4">{name}</h3>
-                    <p style={{ textAlign: "justify" }}>{description}</p>
-                    <h4 className="text-danger">Fees: ${price}</h4>
+            <div className="order container mx-auto">
+                <div className="order-left">
+                    <div>
+                        <img src={img} alt="" />
+                        <h3 className="p-4">{name}</h3>
+                        <p style={{ textAlign: "justify" }}>{description}</p>
+                        <h4 className="text-danger">Fees: ${price}</h4>
+                    </div>
+                    <br />
                 </div>
-                <br />
-                <h2 className="heading mx-auto w-75 my-5">Enter your details and book the package</h2>
-                <div>
+                <div className="order-right">
+                    <h2 className="heading mx-auto w-75 my-5">Enter your details and book the package</h2>
                     <form onSubmit={handleAddOrder} className="row g-3">
                         <div className="col-md-12">
                             <input ref={nameRef} placeholder="Name" required value={user.displayName} type="text" className="form-control" id="inputName" />
@@ -97,7 +99,7 @@ const PlaceOrder = () => {
                         <div className="col-12">
                             <input ref={phoneRef} placeholder="Phone" required type="text" className="form-control" id="inputPhone" />
                         </div>
-                        <button type="submit" className="btn btn-success w-50 mx-auto my-4 p-3">Book the package now</button>
+                        <button type="submit" className="btn buy-now-button w-50 mx-auto my-4 p-3">Book the package now</button>
                     </form>
                 </div>
             </div>

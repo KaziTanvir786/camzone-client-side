@@ -51,7 +51,7 @@ const MyOrders = () => {
     else {
         return (
             <div>
-                <h1>No orders found</h1>
+                <img width="50%" src="https://i.ibb.co/bJtsKLz/no-item-found-here.png" alt="" />
             </div>
         );
     }

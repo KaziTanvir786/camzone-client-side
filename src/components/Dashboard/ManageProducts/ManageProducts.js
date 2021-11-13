@@ -48,7 +48,7 @@ const ManageProducts = () => {
     else {
         return (
             <div>
-                <img width="50%" src="https://i.ibb.co/Rb8wnmh/empty-cart.png" alt="" />
+                <img width="50%" src="https://i.ibb.co/bJtsKLz/no-item-found-here.png" alt="" />
             </div>
         );
     }

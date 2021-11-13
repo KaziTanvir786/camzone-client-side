@@ -8,9 +8,33 @@
 }
 .login-form button{
     width: 40%;
-    padding: 10px;
+    padding: 15px 10px;
     margin: 10px;
+    border: none;
 }
+
+.login-button{
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.login-button:hover{
+    color: white;
+    transform: scale(1.03);
+}
+.google-button{
+    color: white;
+    background-color: rgb(17, 99, 192);
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.google-button:hover{
+    color: white;
+    transform: scale(1.03);
+}
+
+
 
 /* responsive */
 @media only screen and (max-width: 688px){

@@ -1,9 +1,6 @@
 .order{
-    width: 60%;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 40px gainsboro;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .order a{
@@ -11,11 +8,12 @@
     color: white;
 }
 
-.order img{
-    border-radius: 50%;
+.order-left, .order-right{
+    padding: 20px;
 }
+
 .order img{
-    width: 50%;
+    width: 30%;
 }
 
 /* responsive */

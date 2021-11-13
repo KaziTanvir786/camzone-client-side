@@ -24,7 +24,7 @@ const Review = (props) => {
                     </div>
                     <div class="card-footer">
                         <div className="py-4">
-                            <strong style={{ borderBottom: "2px solid red" }} className="py-1">Comment:</strong>
+                            <strong className="py-1">Comment:</strong>
                             <p className="card-text pt-3">{review.review}</p>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ const Review = (props) => {
                     </div>
                     <div class="card-footer">
                         <div className="py-4">
-                            <strong style={{ borderBottom: "2px solid red" }} className="py-1">Comment:</strong>
+                            <strong className="py-1">Comment:</strong>
                             <p className="card-text pt-3">{review.review}</p>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ const Review = (props) => {
                     </div>
                     <div class="card-footer">
                         <div className="py-4">
-                            <strong style={{ borderBottom: "2px solid red" }} className="py-1">Comment:</strong>
+                            <strong className="py-1">Comment:</strong>
                             <p className="card-text pt-3">{review.review}</p>
                         </div>
                     </div>
@@ -108,7 +108,7 @@ const Review = (props) => {
                     </div>
                     <div class="card-footer">
                         <div className="py-4">
-                            <strong style={{ borderBottom: "2px solid red" }} className="py-1">Comment:</strong>
+                            <strong className="py-1">Comment:</strong>
                             <p className="card-text pt-3">{review.review}</p>
                         </div>
                     </div>
@@ -136,7 +136,7 @@ const Review = (props) => {
                     </div>
                     <div class="card-footer">
                         <div className="py-4">
-                            <strong style={{ borderBottom: "2px solid red" }} className="py-1">Comment:</strong>
+                            <strong className="py-1">Comment:</strong>
                             <p className="card-text pt-3">{review.review}</p>
                         </div>
                     </div>
@@ -164,7 +164,7 @@ const Review = (props) => {
                     </div>
                     <div class="card-footer">
                         <div className="py-4">
-                            <strong style={{ borderBottom: "2px solid red" }} className="py-1">Comment:</strong>
+                            <strong className="py-1">Comment:</strong>
                             <p className="card-text pt-3">{review.review}</p>
                         </div>
                     </div>
@@ -192,7 +192,7 @@ const Review = (props) => {
                     </div>
                     <div class="card-footer">
                         <div className="py-4">
-                            <strong style={{ borderBottom: "2px solid red" }} className="py-1">Comment:</strong>
+                            <strong className="py-1">Comment:</strong>
                             <p className="card-text pt-3">{review.review}</p>
                         </div>
                     </div>
@@ -220,7 +220,7 @@ const Review = (props) => {
                     </div>
                     <div class="card-footer">
                         <div className="py-4">
-                            <strong style={{ borderBottom: "2px solid red" }} className="py-1">Comment:</strong>
+                            <strong className="py-1">Comment:</strong>
                             <p className="card-text pt-3">{review.review}</p>
                         </div>
                     </div>
@@ -248,12 +248,12 @@ const Review = (props) => {
                     </div>
                     <div class="card-footer">
                         <div className="py-4">
-                            <strong style={{ borderBottom: "2px solid red" }} className="py-1">Comment:</strong>
+                            <strong>Comment:</strong>
                             <p className="card-text pt-3">{review.review}</p>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
         );
     }
     else if (parseFloat(review.rating) < 1 && parseFloat(review.rating) >= 0.5) {
@@ -276,7 +276,7 @@ const Review = (props) => {
                     </div>
                     <div class="card-footer">
                         <div className="py-4">
-                            <strong style={{ borderBottom: "2px solid red" }} className="py-1">Comment:</strong>
+                            <strong className="py-1">Comment:</strong>
                             <p className="card-text pt-3">{review.review}</p>
                         </div>
                     </div>
@@ -304,7 +304,7 @@ const Review = (props) => {
                     </div>
                     <div class="card-footer">
                         <div className="py-4">
-                            <strong style={{ borderBottom: "2px solid red" }} className="py-1">Comment:</strong>
+                            <strong className="py-1">Comment:</strong>
                             <p className="card-text pt-3">{review.review}</p>
                         </div>
                     </div>

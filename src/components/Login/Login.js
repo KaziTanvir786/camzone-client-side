@@ -44,7 +44,7 @@ const Login = () => {
             {
                 !isLoading &&
                 <form onSubmit={handleLoginSubmit} className="login-form p-4 mb-5">
-                    <h2 style={{ color: "#087979" }} className="my-4">Please Login</h2>
+                    <h1 className="section-title w-50 mx-auto py-3 mb-4">Please Login</h1>
                     <div>
                         <div className="row mb-3">
                             <div className="col-sm-12">
@@ -73,21 +73,21 @@ const Login = () => {
                         <div className="row mb-3">
                             <div className="col-sm-12">
                                 <div className="form-check">
-                                    <div className="me-3">
+                                    <div className="m-3">
                                         <Link to="/register">
-                                            Create an account
+                                            Not Registered yet? Create an account.
                                         </Link>
                                     </div>
                                     <div>
                                         {
-                                            <h4 className="text-danger">Error</h4>
+                                            <h4 className="text-danger">{authError.message}</h4>
                                         }
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <button type="submit" style={{ backgroundColor: "#087979" }} className="btn text-white">Sign in</button> <br /> or, <br />
-                        <button onClick={handleGoogleSignIn} className="btn btn-primary"> <span className="me-2"><i className="fab fa-google"></i></span> Google Sign In</button>
+                        <button type="submit" className="login-button">Sign in</button> <br />
+                        <button onClick={handleGoogleSignIn} className="google-button"> <span className="me-2"><i className="fab fa-google"></i></span> Google Sign In</button>
                     </div>
                 </form>
             }
