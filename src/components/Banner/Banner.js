@@ -1,6 +1,7 @@
 import React from 'react';
 import './Banner.css';
 import TextLoop from "react-text-loop";
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
@@ -19,7 +20,7 @@ const Banner = () => {
                         <span className="textloop-text">Camera Lightings</span>
                     </TextLoop>
                 </div>
-                <button className="btn btn-outline-danger banner-btn">Visit out Products</button>
+                <Link to="/explore"><button className="btn btn-outline-danger banner-btn">Visit out Products</button></Link>
             </div>
         </div>
     );

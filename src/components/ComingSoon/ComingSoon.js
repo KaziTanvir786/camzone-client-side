@@ -1,25 +1,25 @@
 import React, { useEffect, useState } from 'react';
 import { Spinner } from 'react-bootstrap';
-import ExploreProduct from '../ExploreProduct/ExploreProduct';
-import './Explore.css';
+import ComingSoonProduct from './ComingSoonProduct/ComingSoonProduct';
+import './ComingSoon.css';
 
-const Explore = () => {
+const ComingSoon = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        fetch('https://lit-beach-01803.herokuapp.com/explore')
+        fetch('https://lit-beach-01803.herokuapp.com/coming-soon')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
     if (products.length !== 0) {
         return (
-            <div className="products-container">
-                <h1 className="section-title w-20 mx-auto py-3 mb-4">All Products</h1>
-                <div className="row row-cols-1 row-cols-md-3 g-4">
+            <div id="coming-soon" className="products-container">
+                <h1 className="section-title mx-auto py-3 my-4">Coming Soon...</h1>
+                <div className="coming-soon-container">
                     {
-                        products.map(product => <ExploreProduct
+                        products.map(product => <ComingSoonProduct
                             key={product._id}
                             product={product}
-                        ></ExploreProduct>)
+                        ></ComingSoonProduct>)
                     }
                 </div>
             </div>
@@ -34,4 +34,4 @@ const Explore = () => {
     }
 };
 
-export default Explore;
+export default ComingSoon;
