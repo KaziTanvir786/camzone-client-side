@@ -2,7 +2,7 @@
 
 ### [Live Site link](https://camzone-66568.web.app/)
 
-### [Server side code link](https://github.com/programming-hero-web-course-4/niche-website-server-side-KaziTanvir786)
+### [Server side code link](https://github.com/KaziTanvir786/camzone-server-side)
 
 This text documentation (given below) will allow to understand the projects overview and purposes.
 * This is the client side application, which is basically a camera online niche shop website
