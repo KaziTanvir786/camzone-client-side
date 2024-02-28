@@ -85,7 +85,7 @@ const useFirebase = () => {
     }, [])
 
     useEffect(() => {
-        fetch(`https://lit-beach-01803.herokuapp.com/users/${user.email}`)
+        fetch(`https://camzone-server-side.up.railway.app/users/${user.email}`)
             .then(res => res.json())
             .then(data => setAdmin(data.admin))
     }, [user.email])

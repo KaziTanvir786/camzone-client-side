@@ -8,7 +8,7 @@ const MakeAdmin = () => {
     }
     const handleAdminSubmit = e => {
         const user = { email };
-        fetch('https://lit-beach-01803.herokuapp.com/users/admin', {
+        fetch('https://camzone-server-side.up.railway.app/users/admin', {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

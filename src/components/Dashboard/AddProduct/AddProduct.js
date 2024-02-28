@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 const AddProduct = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
-        axios.post('https://lit-beach-01803.herokuapp.com/products', data)
+        axios.post('https://camzone-server-side.up.railway.app/products', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('Product Added successfully.');

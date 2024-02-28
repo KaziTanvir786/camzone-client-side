@@ -5,7 +5,7 @@ const ManageProducts = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch('https://lit-beach-01803.herokuapp.com/explore')
+        fetch('https://camzone-server-side.up.railway.app/explore')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, []);
@@ -13,7 +13,7 @@ const ManageProducts = () => {
     const handleDeleteProduct = id => {
         const proceed = window.confirm('Are you sure to delete?');
         if (proceed) {
-            const uri = `https://lit-beach-01803.herokuapp.com/explore/${id}`;
+            const uri = `https://camzone-server-side.up.railway.app/explore/${id}`;
             fetch(uri, {
                 method: 'DELETE'
             })

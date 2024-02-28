@@ -6,7 +6,7 @@ import './Products.css';
 const Products = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        fetch('https://lit-beach-01803.herokuapp.com/products')
+        fetch('https://camzone-server-side.up.railway.app/products')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])

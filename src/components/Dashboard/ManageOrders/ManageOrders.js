@@ -5,7 +5,7 @@ const ManageOrders = () => {
     const [orders, setOrders] = useState([]);
 
     useEffect(() => {
-        fetch('https://lit-beach-01803.herokuapp.com/orders')
+        fetch('https://camzone-server-side.up.railway.app/orders')
             .then(res => res.json())
             .then(data => setOrders(data))
     }, []);
@@ -13,7 +13,7 @@ const ManageOrders = () => {
     const handleDeleteOrder = id => {
         const proceed = window.confirm('Are you sure to delete?');
         if (proceed) {
-            const uri = `https://lit-beach-01803.herokuapp.com/orders/${id}`;
+            const uri = `https://camzone-server-side.up.railway.app/orders/${id}`;
             fetch(uri, {
                 method: 'DELETE'
             })
@@ -43,7 +43,7 @@ const ManageOrders = () => {
             order_price: order.order_price
         };
 
-        const uri = `https://lit-beach-01803.herokuapp.com/orders/${order._id}`;
+        const uri = `https://camzone-server-side.up.railway.app/orders/${order._id}`;
         fetch(uri, {
             method: 'PUT',
             headers: {

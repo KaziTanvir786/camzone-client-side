@@ -6,7 +6,7 @@ import './ComingSoon.css';
 const ComingSoon = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        fetch('https://lit-beach-01803.herokuapp.com/coming-soon')
+        fetch('https://camzone-server-side.up.railway.app/coming-soon')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])

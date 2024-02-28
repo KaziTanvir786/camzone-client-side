@@ -10,7 +10,7 @@ const PlaceOrder = () => {
     console.log(productId);
     const { user } = useAuth();
     useEffect(() => {
-        fetch('https://lit-beach-01803.herokuapp.com/explore')
+        fetch('https://camzone-server-side.up.railway.app/explore')
             .then(res => res.json())
             .then(data => setProducts(data));
     }, []);
@@ -54,7 +54,7 @@ const PlaceOrder = () => {
 
 
         const newOrder = { status, user_name, user_email, user_address, user_phone, order_id, order_name, order_category, order_description, order_img, order_price };
-        fetch('https://lit-beach-01803.herokuapp.com/orders', {
+        fetch('https://camzone-server-side.up.railway.app/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

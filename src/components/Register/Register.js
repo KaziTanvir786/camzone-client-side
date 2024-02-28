@@ -25,7 +25,7 @@ const Register = () => {
     }
 
     const addToDatabase = data => {
-        axios.post('https://lit-beach-01803.herokuapp.com/users', data)
+        axios.post('https://camzone-server-side.up.railway.app/users', data)
             .then(res => {
             })
     };

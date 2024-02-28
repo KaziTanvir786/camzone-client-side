@@ -5,7 +5,7 @@ import Review from '../Review/Review';
 const Reviews = () => {
     const [reviews, setReviews] = useState([]);
     useEffect(() => {
-        fetch('https://lit-beach-01803.herokuapp.com/reviews')
+        fetch('https://camzone-server-side.up.railway.app/reviews')
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [])

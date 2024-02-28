@@ -8,7 +8,7 @@ const AddReview = () => {
     const { user } = useAuth();
     console.log(user.email);
     const onSubmit = data => {
-        axios.post('https://lit-beach-01803.herokuapp.com/reviews', data)
+        axios.post('https://camzone-server-side.up.railway.app/reviews', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('Review added successfully.');
